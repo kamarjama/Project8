@@ -6,14 +6,16 @@
 </head>
 <body>
 <h1>Best Friend Calculator</h1>
-<form>
+<form action="/" method="post">
     Name:
 <input type="text"
-       name="Name"  size="20">
+       name="name1"  size="20">
     <br><br>
       To:
-<input type="text"name="To"
+<input type="text"name="name2"
        size="20">
+<button type="submit">Calculate</button>
 </form>
+<h1>{{ friendship }}</h1>
 </body>
 </html>
